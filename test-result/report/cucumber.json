@@ -1,0 +1,288 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "register-new-user-and-complete-purchase-flow.;register-new-user-successfully.",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Register new user successfully.",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1101579958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on homePage",
+            "match": {
+              "location": "src/test/steps/Registersteps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6536567207
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on Signup or login button",
+            "match": {
+              "location": "src/test/steps/Registersteps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 489944583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I enter name and Email Address",
+            "match": {
+              "location": "src/test/steps/Registersteps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23561583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click on Signup button",
+            "match": {
+              "location": "src/test/steps/Registersteps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 640792792
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I Enter Account Information",
+            "match": {
+              "location": "src/test/steps/Registersteps.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 542160125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I click on Create Account",
+            "match": {
+              "location": "src/test/steps/Registersteps.ts:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1065740250
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "My account is created Successfully",
+            "match": {
+              "location": "src/test/steps/Registersteps.ts:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 574973874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I add product to cart",
+            "match": {
+              "location": "src/test/steps/Registersteps.ts:84"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10061041415
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I Proceed to checkout",
+            "match": {
+              "location": "src/test/steps/Registersteps.ts:105"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 639603541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I enter comment and place order",
+            "match": {
+              "location": "src/test/steps/Registersteps.ts:109"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1509099584
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I enter card details and confirm order",
+            "match": {
+              "location": "src/test/steps/Registersteps.ts:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2060860375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "my order will place successfully",
+            "match": {
+              "location": "src/test/steps/Registersteps.ts:123"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 96901249
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 104493334
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "register-new-user-and-complete-purchase-flow.;duplicate-email-registration.",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Duplicate email registration.",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 654869666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "I am on homePage",
+            "match": {
+              "location": "src/test/steps/Registersteps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5389235416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I click on Signup or login button",
+            "match": {
+              "location": "src/test/steps/Registersteps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 509555083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I enter name and Email Address of already registered user",
+            "match": {
+              "location": "src/test/steps/Registersteps.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 97464833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I click on Signup button",
+            "match": {
+              "location": "src/test/steps/Registersteps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 575220249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "System display Error message",
+            "match": {
+              "location": "src/test/steps/Registersteps.ts:77"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 112300415
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 83037041
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "register-new-user-and-complete-purchase-flow.",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Register new user and Complete purchase flow.",
+    "tags": [],
+    "uri": "src/test/features/Register.feature"
+  }
+]

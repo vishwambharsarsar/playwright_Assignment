@@ -1,0 +1,25 @@
+{
+  "name": "playwright_assignmewnt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mkdir -p test-result/report && npx cucumber-js src/Test/Features --require src/test/steps/**/*.ts --require-module ts-node/register --format json:test-result/report/cucumber-report.json --format html:test-result/report/cucumber-report.html && open test-result/report/cucumber-report.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.3.0",
+    "@faker-js/faker": "^10.1.0",
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.1",
+    "multiple-cucumber-html-reporter": "^3.9.3",
+    "rimraf": "^6.1.2",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "@axe-core/playwright": "^4.11.3"
+  }
+}
